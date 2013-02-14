@@ -41,7 +41,7 @@ namespace JSTest.ScriptElements
 
         public override string ToScriptFragment()
         {
-            return String.Format("return {0}();", _functionName);
+            return String.Format("{0}();", _functionName);
         }
 
         public override string ToString()

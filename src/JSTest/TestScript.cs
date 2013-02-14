@@ -81,7 +81,7 @@ namespace JSTest
             return RunTest(new TestExecutor(IncludeDefaultBreakpoint ? Breakpoint : NoAction, testScript, NoAction));
         }
 
-        private String RunTest(TestExecutor testExecutor)
+        public String RunTest(TestExecutor testExecutor)
         {
             String scriptFile = Path.ChangeExtension(Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString()), ".wsf");
 

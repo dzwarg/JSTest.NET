@@ -16,7 +16,7 @@
 
 namespace JSTest.ScriptElements
 {
-    internal class TestExecutor : ScriptBlock
+    public class TestExecutor : ScriptBlock
     {
         private const String UnformattedScriptBlock =
           @"(function () {{
